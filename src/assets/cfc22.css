@@ -1,3 +1,13 @@
+#subpage #content .wrapper {
+  margin: 0;
+  max-width: none;
+  width: 100%;
+}
+
+#subpage.with-default #content .wrapper .banner-title {
+  display:none;
+}
+
 .header-wrap:before {
   content: ' ';
   display: block;
